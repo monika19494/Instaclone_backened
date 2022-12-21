@@ -94,6 +94,6 @@ app.post("/posts", upload.single("PostImage"), function (req, res, next) {
 
 // Listening on the Port no
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log("Server running on port 3000");
+app.listen(process.env.PORT || 5000, () => {
+  console.log("Server running on port 5000");
 });
